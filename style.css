@@ -1,0 +1,29 @@
+body {
+  text-align: center
+}
+
+ul.links {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.links li { display: inline-block;}
+
+ul.links label { display: none;}
+
+ul.links a {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-size: cover;
+}
+
+.facebook { background-image: url('images/facebook.png'); }
+.twitter { background-image: url('images/twitter.png'); }
+.instagram { background-image: url('images/instagram.png'); }
+.soundcloud { background-image: url('images/soundcloud.png'); }
+
+ul.links .youtube {
+  background-image: url('images/youtube.png');
+  width: 48px;
+}
