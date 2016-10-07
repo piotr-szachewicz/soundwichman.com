@@ -7,23 +7,12 @@ ul.links {
   padding: 0;
 }
 
-ul.links li { display: inline-block;}
-
-ul.links label { display: none;}
-
-ul.links a {
-  display: inline-block;
-  width: 34px;
-  height: 34px;
-  background-size: cover;
+a {
+  color: black;
+  font-size: 1.8em;
+  padding: 4px;
 }
 
-.facebook { background-image: url('images/facebook.png'); }
-.twitter { background-image: url('images/twitter.png'); }
-.instagram { background-image: url('images/instagram.png'); }
-.soundcloud { background-image: url('images/soundcloud.png'); }
+ul.links li { display: inline-block; }
 
-ul.links .youtube {
-  background-image: url('images/youtube.png');
-  width: 48px;
-}
+ul.links label { display: none; }
