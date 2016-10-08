@@ -11,8 +11,12 @@ a {
   color: black;
   font-size: 1.8em;
   padding: 4px;
+  transition: color 1s ease;
 }
 
 ul.links li { display: inline-block; }
 
 ul.links label { display: none; }
+
+ul.links a:hover { color: #fd9800; }
+
